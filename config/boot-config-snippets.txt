@@ -1,0 +1,12 @@
+# Optional Raspberry Pi boot config snippets for framebuffer-based welcome pages.
+
+# Ensure HDMI is always enabled
+dtparam=audio=off
+hdmi_force_hotplug=1
+
+# Framebuffer resolution (example)
+framebuffer_width=1920
+framebuffer_height=1080
+
+# Keep splash disabled for a clean boot experience
+disable_splash=1

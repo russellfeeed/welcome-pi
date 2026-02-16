@@ -1,0 +1,3 @@
+# Replace with a unique pairing code provisioned for this device.
+# Example only:
+ABC123

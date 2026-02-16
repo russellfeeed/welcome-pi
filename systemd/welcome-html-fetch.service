@@ -1,0 +1,13 @@
+[Unit]
+Description=Fetch and refresh welcome HTML content
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /opt/welcome/scripts/fetch-html.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
